@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "cookieMonster";
+    src: url('./fonts/cookiemonster/CookieMonster.ttf');
+    font-family:"chasing-hearts";
+    src: url('./fonts/chasing_hearts/Chasing\ Hearts\ -\ TTF.ttf')
+}
+header, section, footer, aside, nav, article{
+    display: block;
+}
+header, footer, aside{
+    text-align: center;
+}
+body{
+    border: 1px solid #C1DCD2;
+    width: 999px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background: #0B875E ;
+    color: #DCE8E4; 
+    font-family: 'chasing-hearts';
+    font-size: 80px;
+    padding: 20px;
+}       
+
+nav{
+    background: #CFDAD6 ; 
+    color : #0F2C22;
+    font-family: 'chasing-hearts';
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+nav li{
+    list-style: none;
+    padding: 10px;
+    border: 1px solid rgb(12, 75, 52);
+    display: inline;
+}
+h1{
+    background:#249D75;
+    font-size: 40px;
+    font-family: 'chasing-hearts';
+    text-align: center;
+}
+
+h2{
+    background: #85ADA0;
+    font-size: 20px;
+    font-family: 'chasing-hearts';
+    text-align: center;
+}
+
+p,time{
+    background: #B8CFC7;
+    color:#0F2C22 ;
+    font-family: cursive;
+}
+.seccion{
+    width: 600px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.columna{
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 310px;
+    padding: 20px;
+    padding-bottom: 270px;
+    border: 1px solid  #C1DCD2 ;
+    text-align: left;
+}
+.pie{
+    clear: both;
+    margin-top: 5px;
+    padding: 40px ;
+    background: #0F2C22; 
+    color : #CFDAD6;
+    font-size: 30px;
+    font-family: 'chasing-hearts'; 
+}
+.columna blockquote{
+    padding: 40px;
+    border: 1px solid cadetblue;
+    padding-bottom: 50px;
+}
+img{
+    width: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
